@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>form test</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section>
+      <h1 id="title">Manga Lover Form</h1>
+      <p id="description">Gathering data about what kind of manga people love the most.</p>
+    </section>
+    <section>
+      <form class="" action="index.html" method="post" id="survey-form">
+        <div class="name">
+          <label id="name-label" for="name">Name:</label>
+          <br>
+          <input type="text" name="name" value="" placeholder="Name" required id="name">
+        </div>
+
+        <div class="email">
+          <label for="email" id="email-label">Email:</label>
+          <br>
+          <input type="email" name="email" value="" placeholder="Email" required id="email">
+        </div>
+
+        <div class="number">
+          <label for="number" id="number-label">Number of manga you possess:</label>
+          <br>
+          <input type="number" name="number" value="" id="number" min="0" max="10000" required placeholder="Number of manga">
+        </div>
+
+        <div class="dropdown">
+          <label for="genre">What genre of manga do you read ?</label>
+          <br>
+          <select class="" name="genre" id="dropdown" required>
+            <option disabled  selected value="">Choose wisely</option>
+            <option value="shonen_nekketsu">Shônen Nekketsu (Bleach, One Piece, Naruto etc...)</option>
+            <option value="shonen_pantsu">Shônen Pantsu (Negima, Love Hina, etc...)</option>
+            <option value="magical_shojo"> Magical Shôjo (Sailor Moon, Shugo chara, etc...)</option>
+            <option value="shojo_romance">Shôjo Romance (Nana, Fruits Basket, etc...)</option>
+            <option value="seinen">Seinen (Claymore, Berserk, Monster, etc...)</option>
+            <option value="kodomo">Kodomo (Pokemon, Astro Boy, etc...)</option>
+          </select>
+        </div>
+
+        <div class="radio">
+          <p>What type of manga reader are you ?</p>
+          <label for="">
+            <input type="radio" name="radio_input" value="freak" class="radio" checked>
+            Binge reader
+          </label>
+          <br>
+          <label for="">
+            <input type="radio" name="radio_input" value="mild" class="radio">
+            Read occasionally
+          </label>
+          <br>
+          <label for="">
+            <input type="radio" name="radio_input" value="purist" class="radio">
+            Only read paper manga
+          </label>
+          <br>
+          <label for="">
+            <input type="radio" name="radio_input" value="geek" class="radio">
+            Read latest scans
+          </label>
+        </div>
+
+        <div class="checkbox">
+          <p>which of these have you already read ?</p>
+          <label for="">
+            <input type="checkbox" name="" value="fairytail" class="checkbox" >
+            Fairy Tail
+          </label>
+          <br>
+          <label for="">
+            <input type="checkbox" name="" value="deathnote" class="checkbox">
+            Death Note
+          </label>
+          <br>
+          <label for="">
+            <input type="checkbox" name="" value="onepunch" class="checkbox">
+            One Punch
+          </label>
+          <br>
+          <label for="">
+            <input type="checkbox" name="" value="gundam" class="checkbox">
+            Gundam
+          </label>
+          <br>
+          <label for="">
+            <input type="checkbox" name="" value="claymore" class="checkbox">
+            Claymore
+          </label>
+          <br>
+          <label for="">
+            <input type="checkbox" name="" value="sailormoon" class="checkbox">
+            Sailor Moon
+          </label>
+          <br>
+          <label for="">
+            <input type="checkbox" name="" value="wolfguy" class="checkbox">
+            Wolf Guy
+          </label>
+          <br>
+          <label for="">
+            <input type="checkbox" name="" value="attackontitan" class="checkbox">
+            Attack on Titan
+          </label>
+          <br>
+          <label for="">
+            <input type="checkbox" name="" value="myheroacademia" class="checkbox">
+            My Hero Academia
+          </label>
+        </div>
+
+        <div class="textarea">
+          <p>What's the next manga you're gonna read, and why ?</p>
+          <textarea class="textarea" name="comment" placeholder="Enter your choice here."></textarea>
+        </div>
+
+        <div class="submit">
+          <button type="submit" name="button" id="submit">Submit !</button>
+        </div>
+
+      </form>
+    </section>
+  </body>
+</html>

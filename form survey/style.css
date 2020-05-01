@@ -1,0 +1,84 @@
+body {
+  background-image: url(https://images2.alphacoders.com/740/thumb-1920-740460.png);
+  background-size: cover;
+  background-position: fixed;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: left;
+  color:  #e5e7e9;
+  font-family: courier;
+}
+section {
+  background-color: darkcyan;
+  border-radius: 20px;
+  filter: opacity(90%);
+  margin: 80px 600px 80px 600px;
+}
+div{
+  margin: 60px 0 60px 80px;
+  padding: 50px 0 0 0;
+  font-size: larger;
+  font-weight: 300;
+}
+.radio {
+
+}
+.checkbox {
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+#name, #email, #number, #dropdown {
+  margin-top: 20px;
+  width: 500px;
+  height: 30px;
+  border-radius: 7px;
+  border: none;
+}
+h1 {
+  font-size: 35px;
+  text-align: center;
+  padding-top: 10px;
+  font-family: courier;
+}
+#description {
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: courier;
+}
+textarea {
+  width: 500px;
+  padding-bottom: 50px;
+  border-radius: 7px;
+  border: none;
+}
+::placeholder {
+color: crimson;
+opacity: 1;
+}
+option, select {
+  color: crimson;
+}
+Button {
+	background-color:#e4685d;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+  margin-left: 200px;
+  margin-bottom: 50px;
+}
+Button:hover {
+	background-color:#eb675e;
+}
+Button:active {
+	position:relative;
+	top:1px;
+}
